@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BASE_URL = "https://youtube-gamma-eight.vercel.app/";
+export const BASE_URL = "http://youtube-gamma-eight.vercel.app/";
 
 const options = {
   params: {
