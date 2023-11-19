@@ -40,7 +40,7 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => {
         flexDirection: { md: "column" },
       }}
     >
-      {categories?.map((category) => (
+      {categories.map((category) => (
         <button
           className="category-btn"
           onClick={() => navigate("/videoType/" + category.type_id)}
