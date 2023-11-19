@@ -43,7 +43,6 @@ const Feed = () => {
 
     getVideoAPI()
       .then((res) => {
-        console.log(res);
         setVideos(res);
       })
       .catch((err) => {
