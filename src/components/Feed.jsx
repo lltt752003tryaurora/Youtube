@@ -10,7 +10,6 @@ const Feed = () => {
   const [videos, setVideos] = useState(null);
 
   const params = useParams();
-  alert(params.id);
 
   useEffect(() => {
     if (params.id) {
